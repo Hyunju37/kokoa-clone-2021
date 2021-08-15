@@ -11,10 +11,11 @@
 }
 .friends-screen {
   padding: 0px var(--horizontal-space);
+  height: 110vh;
 }
 .friends-screen__channel {
   margin-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 .friends-screen__channel-header {
@@ -22,4 +23,7 @@
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
+}
+.fr{
+  padding: 6px 0px;
 }
