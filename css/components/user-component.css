@@ -40,7 +40,16 @@
   flex-direction: column;
   align-items: flex-end;
 }
-.user-component__time{
+.user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+.user-component--fr {
+  padding: 6px 0px;
+}
+.user-component--room {
+  padding: 6px 0px;
+}
+.user-component--room:hover {
+  background-color: rgb(240, 240, 240);
 }

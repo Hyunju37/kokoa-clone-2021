@@ -32,3 +32,6 @@
   font-size: 32px;
   color: white;
 }
+.icon-row__icon:hover i{
+  animation: rotate-vert-center 0.5s ease-in-out;
+}
